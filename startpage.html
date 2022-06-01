@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+            <title>Text Adventure.</title>
+
+            <link id="style" href="css/startpage.css" type="text/css" rel="stylesheet"> 
+
+            <script type="text/javascript" src="js\startpage.js"></script>
+        
+    </head>
+    <body onload="loade();">
+
+
+        <h2 id="ti">Welcome To The Text Adventure Game.</h2>
+
+        <p id="screen" ></p>
+
+        <img src="Images and Audio\jail-break.jpg" alt="JAIL BREAK IMAGE" >
+
+        <div class="input-box">    
+            <input type="text" id="Name"  placeholder=" Enter Your Name Here " required>
+            <select id="gender" >
+                <option value="Male" >Male</option>
+                <option value="Female" >Female</option>
+            </select>  
+            <input type="text" id="Age"  placeholder="Age" required>            
+            <button class="stg" onclick=" playAudio(); setTimeout('gamepage()', 1000); " >START GAME.</button>
+        </div>
+
+
+        <audio id="myAudio">
+            <source src="Images and Audio\click.mp3" >
+            Your browser does not support the audio element.
+          </audio>
+
+        <script>
+            var x = document.getElementById("myAudio"); 
+
+            function playAudio() { 
+            x.play(); 
+            } 
+        </script>
+
+    </body>
+</html>
+

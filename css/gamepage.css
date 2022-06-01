@@ -1,0 +1,117 @@
+#cmmd{
+    height: 50px;
+    width: 300px;
+    border-width: 4px;
+    border-radius: 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+    cursor:auto;
+    display: flex;
+    padding-left: 10mm;
+    margin-right: 2cm;
+    background-color: rgb(177, 182, 251);
+}
+
+body{
+    background: linear-gradient(135deg, #f880de, #ffffff ,#cffa8a );
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+#ti{
+ background: linear-gradient( 135deg, #f880de, #eb7272 ,#cffa8a  );
+ width: auto;
+ margin: auto;
+ padding: 0.5cm;
+ align-items: center;
+ border-radius: 5px;
+ box-shadow: 1px 1px 10px 10px rgba(240, 12, 12, 0.15);
+ display: flex;  
+ position: absolute;
+ top: 10px;
+ font-size: 30px;
+ font-weight: bold;
+ color: rgb(30, 51, 172);
+}
+        
+#input-box {
+ background: linear-gradient(135deg, #f880de, #eb7272 ,#cffa8a );
+ width: 44%;
+ margin: auto;
+ padding: 0.3cm;
+ padding-left: 1cm;
+ padding-right: 1cm;
+ border-radius: 5px;
+ box-shadow: 1px 1px 10px 10px rgba(48, 3, 98, 0.15);
+ display: flex;  
+ position: absolute;
+ left: 20px;
+ bottom: 10px;
+}
+
+#commd{
+    height: 50px;
+    width: 300px;
+    border-width: 4px;
+    border-radius: 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+    cursor:auto;
+    display: flex;
+    padding-left: 10mm;
+    margin-right: 2cm;
+    background-color: rgb(177, 182, 251);
+}
+
+
+#act{
+    height: 60px;
+    width: 200px;
+    border-width: 4px;
+    border-radius: 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 0, 0); 
+    cursor: pointer;
+    background-color: rgb(250, 210, 210);
+}
+
+button:active{
+  font-size: 15px;
+  color: blue; 
+}
+
+
+img {  
+  position: absolute;
+  bottom: 150px;
+  left: 150px;
+}  
+
+#statements{
+  width: 40%;
+  height: 50%;
+  padding-top: 2cm;
+  padding-left: 2cm;
+  background-color: rgb(255, 207, 185);
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15); 
+  position: absolute;
+  right: 20px;
+  bottom: 120px;
+  font-weight: bold;
+  font-size: 6mm;
+}
+
+#time{
+ position: absolute;
+ right: 20px;
+ bottom: 10px;
+ font-weight: bold;
+ font-size: 5mm;
+}

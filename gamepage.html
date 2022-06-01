@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+            <title>Game Begins.</title>
+        
+            <link id="style" href="css/gamepage.css" type="text/css" rel="stylesheet"> 
+
+            <script type="text/javascript" src="js\gamepage.js"></script>
+        
+    </head>
+    <body onload="getLoad();">
+
+
+        <h2 id="ti"></h2>
+
+        <div id="im" ></div>       
+        
+        <p id="statements">[Inner Self]:‎‏‏‎ ‎‏‏‎ ‎  Bro, Open your Eye.   </p> 
+        <p id="time"></p>
+
+
+        <div id="input-box">    
+            <input type="text" id="commd"  placeholder=" Enter Action ">           
+            <button id="act" onclick="actionn(); playAudio();">Perform Action.</button>
+        </div>
+
+        <audio id="myAudio">
+            <source src="Images and Audio\click.mp3" >
+            Your browser does not support the audio element.
+        </audio>
+
+        <map name="workmaap">
+            <area shape="rect" coords="412,283,470,364" onclick="mycodee()"  >
+        </map>
+          
+
+        <script>
+            var x = document.getElementById("myAudio"); 
+
+            function playAudio() { 
+            x.play(); 
+            } 
+
+            function mycodee() {
+            alert("csc1030 is the Code To Safe.");
+          }
+        </script>
+    </body>
+
+</html>
+
