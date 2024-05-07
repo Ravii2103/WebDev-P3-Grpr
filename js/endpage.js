@@ -14,5 +14,5 @@ function loadstats(){
 }
 
 function playagain(){
-    window.open('startpage.html', "_self");
+    window.open('index.html', "_self");
 }
